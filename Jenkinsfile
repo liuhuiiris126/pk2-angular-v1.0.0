@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'sh /opt/build/bootstrap.sh'
+        sh 'cd /opt'
       }
     }
   }
