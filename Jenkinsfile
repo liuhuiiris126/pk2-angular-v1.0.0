@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'cd /opt'
+        sh 'cd /opt/workspace'
       }
     }
   }
